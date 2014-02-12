@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/icon13">
+    <RadioGroup android:id="@+id/radioGroup2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </RadioGroup>
+    <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="24dip" android:layout_y="35dip">
+        <RadioButton android:checked="true" android:layout_height="wrap_content" android:id="@+id/frapes1" android:layout_width="wrap_content" android:textColor="@color/black" android:text="@string/frapes"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/nes1" android:layout_width="wrap_content" android:text="@string/nes" android:textColor="@color/black"></RadioButton>
+    </RadioGroup>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/megala" android:layout_x="193dip" android:layout_y="33dip" android:textColor="@color/black" android:text="@string/megala"></CheckBox>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/axtipitos" android:layout_x="194dip" android:layout_y="81dip" android:textColor="@color/black" android:text="@string/axtipitos"></CheckBox>
+    <RadioGroup android:id="@+id/radioGroup4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="23dip" android:layout_y="178dip">
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/sketos1" android:layout_width="wrap_content" android:textColor="@color/black" android:text="@string/sketos"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/metrios1" android:layout_width="wrap_content" android:text="@string/metrios" android:textColor="@color/black" android:checked="true"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/glukos1" android:layout_width="wrap_content" android:textColor="@color/black" android:text="@string/glykos"></RadioButton>
+    </RadioGroup>
+    <RadioGroup android:id="@+id/radioGroup3" android:layout_width="wrap_content" android:layout_x="177dip" android:layout_height="wrap_content" android:layout_y="179dip">
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/elafrys1" android:layout_width="wrap_content" android:textColor="@color/black" android:text="@string/elafrys"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/kanonikos1" android:layout_width="wrap_content" android:textColor="@color/black" android:text="@string/kanonikos" android:checked="true"></RadioButton>
+        <RadioButton android:layout_height="wrap_content" android:id="@+id/varis1" android:layout_width="wrap_content" android:textColor="@color/black" android:text="@string/varis"></RadioButton>
+    </RadioGroup>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ζάχαρη :" android:id="@+id/textView1" android:layout_x="31dip" android:layout_y="153dip" android:textColor="@color/skati"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Καφές :" android:id="@+id/textView2" android:layout_x="187dip" android:layout_y="153dip" android:textColor="@color/skati"></TextView>
+    <Button android:textStyle="bold" android:onClick="click" android:text="@string/apostolh" android:layout_width="fill_parent" android:id="@+id/button1" android:layout_x="3dip" android:layout_y="384dip" android:layout_height="wrap_content"></Button>
+</AbsoluteLayout>

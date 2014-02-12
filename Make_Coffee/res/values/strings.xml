@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, test5!</string>
+    <string name="app_name">MakeCoffee</string>
+    <string name="nes">Νές  </string>
+    <string name="frapes">Φραπές</string>
+    <string name="metrios">Μέτριος</string>
+    <string name="elafrys">Ελαφρύς</string>
+    <string name="varis">Βαρύς</string>
+    <string name="megala">Με Γάλα</string>
+    <string name="axtipitos">Αχτύπητος</string>
+    <string name="apostolh">ΑΠΟΣΤΟΛΗ</string>
+    <string name="disconnect">disconnect</string>
+    <color name="black">#000000</color>
+    <string name="kanonikos">Κανονικός</string>
+    <string name="sketos">Σκέτος</string>
+    <string name="glykos">Γλυκός</string>
+    <color name="skati">#fffacd</color>
+</resources>
